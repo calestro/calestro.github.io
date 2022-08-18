@@ -58939,7 +58939,7 @@ A.uW.prototype={
 af(){return new A.KX(B.j)}}
 A.KX.prototype={
 J(a){var s=null,r=t.p
-return A.jI(A.bC(s,A.ls(A.a([A.dq("Bem Vindo !",B.KC,s,s),B.HB,A.dq("Clicando no menu Start voc\xea poder\xe1 desfrutar das minhas aplica\xe7\xf5es",B.aw,s,s),A.dq("elas s\xe3o carregadas atrav\xe9s de uma GitHubApi,a qual carrega todos os meus reposit\xf3rios p\xfablicos do GitHub",B.aw,B.bq,s),B.HC,A.dq("Leonir Junior",B.aw,s,s),A.dq("WebApps & MobileApps",B.aw,s,s),B.HD,A.oH(A.a([B.B3,B.Hz,A.dq("(22) 992131045",B.aw,s,s)],r),B.a1,B.fz,B.au)],r),B.a1,B.fz,B.au),B.p,s,s,s,s,s),s,s)}}
+return A.jI(A.bC(s,A.ls(A.a([A.dq("Bem Vindo !",B.KC,s,s),B.HB,A.dq("Clicando no menu Start voc\xea poder\xe1 desfrutar das minhas aplica\xe7\xf5es",B.aw,s,s),A.dq("elas s\xe3o carregadas atrav\xe9s da GitHubApi,que carrega todos os meus reposit\xf3rios p\xfablicos do GitHub",B.aw,B.bq,s),B.HC,A.dq("Leonir Junior",B.aw,s,s),A.dq("WebApps & MobileApps",B.aw,s,s),B.HD,A.oH(A.a([B.B3,B.Hz,A.dq("(22) 992131045",B.aw,s,s)],r),B.a1,B.fz,B.au)],r),B.a1,B.fz,B.au),B.p,s,s,s,s,s),s,s)}}
 A.CO.prototype={
 i(a){return"LaunchMode."+this.b}}
 A.a2S.prototype={}
