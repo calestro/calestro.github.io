@@ -51,7 +51,7 @@
 
 
   <script>
-    document.getElementById("loader").style.display = "none";
+    document.getElementById("dots").style.display = "none";
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -62,7 +62,7 @@
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
         return appRunner.runApp();
-      }).then(function(){document.getElementById("myDiv").style.display = "block";});
+      }).then(function(){document.getElementById("dots").style.display = "block";});
     });
   </script>
 </body>
