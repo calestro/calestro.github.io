@@ -42,15 +42,17 @@
 </head>
 <body>
 
-  
+  <div id="load">
     <div class='dots'>
         <div></div>
         <div></div>
         <div></div>
       </div>
+      </div>
 
 
   <script>
+    
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -63,6 +65,16 @@
         return appRunner.runApp();
       })
     });
+  </script>
+  <script>
+    window.onload = function(){
+      setTimeout(function () {
+        var loadIndicator = document.getElementById("load");
+        if(loadIndicator){
+          loadIndicator.remove();
+        }
+      },1000)
+    }
   </script>
 </body>
 </html>
