@@ -38,9 +38,20 @@
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
+  
+    <div class='dots'>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+
   <script>
+    document.getElementById("loader").style.display = "none";
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
@@ -51,7 +62,7 @@
         return engineInitializer.initializeEngine();
       }).then(function(appRunner) {
         return appRunner.runApp();
-      });
+      }).then(function(){document.getElementById("myDiv").style.display = "block";});
     });
   </script>
 </body>
